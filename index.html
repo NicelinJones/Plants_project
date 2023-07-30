@@ -2,12 +2,34 @@
 <html>
     <head>
         <title>My web page</title>
+        <meta charset="UTF-8">
+        <!--<link rel="stylesheet" href="style.css">-->
+        
+        
+<style>
+        .display {text-align:center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: xx-large;font-weight: bold;color: blueviolet;
+        }
+            #display{
+                color: brown;
+            }
+            figcaption{
+                color: blueviolet;
+                }
+</style>
     </head>
     <body>
 <header>
-<h4><img src="logo-design.jpg" height="60" width="90"><br>Round Round</h4>
-<pre>                                      <span style="font-size: xx-large;"><strong>PLANTS</strong></span></pre>
-<h3>
+<img src="logo-design.jpg" height="60" width="90" >
+
+<figcaption>
+    Round Round
+</figcaption>
+<h1 class="display">PLANTS</h1>
+<!-- <p style="text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size: xx-large;font-weight: bold;color: blueviolet;">PLANTS</p>-->
+</header>
+<h3 id="display">
         Welcome viewers 
     </h3>
     
@@ -18,19 +40,46 @@
     <source src="clumsy-puppy sound.mp3" type="audio/mpeg">
 </audio>
 <br>
-<vedio controls>
-    <source src="istockphoto-1399019993-640_adpp_is.mp4" type="vedio/mpeg" >
-</vedio>
-<iframe src="https://media.istockphoto.com/id/1201112520/photo/planting-tree-in-garden-concept-save-world-green-earth.jpg?s=612x612&w=0&k=20&c=nYvD6suoUax7iOhi8vxc5X-oHtS5C2Ifu6x9LWrrdgg=" height="350" width="600"></iframe>
+<!--iframe src="https://www.pexels.com/video/close-up-video-of-blue-flowers-1188449/" height="400" width="400"></iframe>-->
+<video controls height="500" width="1000">
+    <!--<source src="WIN_20230725_07_21_22_Pro.webm" type="video/webm">-->
+
+    <source src="video (1080p).mp4" type="video/mp4">
+
+    <!--Download the
+    <a href="WIN_20230725_07_21_22_Pro.mp4.webm">WEBM</a>
+    or
+    <a href="WIN_20230725_07_21_22_Pro.mp4.mp4">MP4</a>video.-->
+</video><br>
+
+<!--<vedio controls>
+    <source src="WIN_20230725_07_21_22_Pro.mp4" type="vedio/mpeg" height="400" width="500">
+</vedio>-->
+
+
+<img src="cropped-hands-planting-sapling-in-dirt-998567842-5c436bcd4cedfd000103d01c.jpg" alt="plant" height="400" width="500">
+<iframe src="https://www.sageage.com/wp-content/uploads/2019/06/SA-iStock-918463868_600x450.jpg" height="400" width="500"></iframe>
      <p>Here we are going to know the good things about plants.Different types of plants are there.Some of these are</p> 
     <ul><li> <nav>
         <a href="HERBS.html">HERBS</a>
         </nav>
         </li><li>CREEPERS and CLIMBERS</li><li>SHRUBS</li><li>TREES</li></ul>
         <h3>Did you know some important things about plants?</h3>
-       <form><label>if yes please put tick mark in check box</label><input type="checkbox" value="true"><br>
-        <label>if No please put tick x mark in check box</label><input type="checkbox" value="false"><br>
-            <label>if you know some important things about plants please write it here </label><input type="text"><button><a href="form.html">Submit</a></button></form><br>
+       <form>
+        <label>If YES Choose &#10004 or If NO Choose &#10006</label>
+            <select>
+            <option value="&#10004" >&#10004</option>
+                <option value="&#10006">&#10006</option>
+            </select><br> 
+            <label>
+                if you choose YES please write it here
+            </label><br>
+            <input type="text" placeholder="Write Here" required>
+            <button>Submit</button>
+            <!--<input type="button" onclick="alert('Hello World!')" value="Click Me!">-->
+
+            <a href="Registration Form.html">please fill the Registarion Form</a>
+        </form><br>
     
      <table>
                 <tr>

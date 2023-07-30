@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .go{
+                margin-left: 300px;
+                width:40%;
+                background-color:aquamarine;
+                border: 2px solid green;
+                border-radius: 10px;
+                 padding: 20px 20px ;
+                text-align: center;
+            }
+       div{
+            display: flex;
+            flex-direction:row;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            font-size:large;
+    
+        }
+        
+        input,textarea,button{
+            background-color: rgb(238, 233, 234);
+            border-radius: 4px;
+            padding: 5px 5px ;
+        }
+
+        </style>
+    <body>
+        <header>
+<a href="index.html">HOME</a>
+        </header>
+        <form  class="go">
+            <h1>Registration Form</h1><br>
+           <div>
+            <section >
+                <label>First Name</label><br>
+            <input type="text" autofocus="on" required>
+           </section>
+            <section>
+                <label>Last Name</label><br>
+            <input type="text" autofocus="on" required>
+            </section>
+        </div><br>
+
+        <div >
+                <section>
+                    <label>Phone Number</label><br>
+                <input type="tel" autofocus="on" required>
+                </section>
+                <section>
+                    <label>Age</label><br>
+                <input type="number" autofocus="on" required>
+                </section> 
+        </div><br>
+                <div>
+                       <section>
+                        <label>Gender</label><br>
+                        <input type="text" autofocus="on" required >                       
+                    </section>
+                                     
+                    
+                    <section>
+                        <label>Email Address</label><br>
+                    <input type="email" autofocus="on" required>
+                    </section>
+                    
+        </div><br>
+                    <div >
+                        <section>
+                            <label>Favourite Author Name</label><br>
+                        <input type="text" autofocus="on" required>
+                        </section>
+                        <section><label>Secondary Author Name </label><br>
+                            <input type="text" autofocus="on" required>
+                        </section>
+                    </div><br>
+                    <section><label>Address</label><br>
+                                <textarea type="address" autofocus="on" rows="5" cols="20" required></textarea>
+                            </section>
+        <button>Submit</button>
+        </form>
+    </body>
+</html>
