@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html>
+   
+
     <head>
         <title>My web page</title>
+       <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
         <meta charset="UTF-8">
         <!--<link rel="stylesheet" href="style.css">-->
         
         
 <style>
-        .display {text-align:center;
+        .display {
+            text-align:center;
             font-family:Verdana, Geneva, Tahoma, sans-serif;
             font-size: xx-large;font-weight: bold;color: blueviolet;
+            viewport-fit:cover;
         }
             #display{
-                color: brown;
+                background-color:#d0a4af;
             }
-            figcaption{
-                color: blueviolet;
+
+                #hd{
+                    background-color:gray;
+                    height: 80px;
                 }
+                #hd div{display:inline-block;}
+                
+                #hd div p{
+                     color: rgb(0, 109, 128);
+                                        font-weight: bolder;
+                                        font-size: xx-large;
+                                        margin-left: 600px;
+                                    }
+
 </style>
     </head>
-    <body>
-<header>
-<img src="logo-design.jpg" height="60" width="90" >
-
-<figcaption>
-    Round Round
-</figcaption>
-<h1 class="display">PLANTS</h1>
+<body id="display"  >
+        <!--<marquee scrollamount="10" direction="up" behavior="scroll" onmousedown="this.stop()" onmouseover="this.stop()" onmousemove="this.stop()" onmouseout="this.start()">-->
+    <header id="hd">
+        <div><img src="logo-design.jpg" height="60" width="90"  />
+        <figcaption>
+            Round Round
+        </figcaption></div>
+        <div><p>PLANTS</p></div>
 <!-- <p style="text-align:center;font-family:Verdana, Geneva, Tahoma, sans-serif;font-size: xx-large;font-weight: bold;color: blueviolet;">PLANTS</p>-->
-</header>
-<h3 id="display">
+    </header>
+<h3 >
         Welcome viewers 
     </h3>
     
@@ -57,14 +73,17 @@
 </vedio>-->
 
 
+
 <img src="cropped-hands-planting-sapling-in-dirt-998567842-5c436bcd4cedfd000103d01c.jpg" alt="plant" height="400" width="500">
+<!--<img src="C:\Users\user\Desktop\Desktop\Nicelin Ebenezer\Nicelin\Fullstack\04_JavaScript_PPT_Muali P N.pptx">-->
+
 <iframe src="https://www.sageage.com/wp-content/uploads/2019/06/SA-iStock-918463868_600x450.jpg" height="400" width="500"></iframe>
      <p>Here we are going to know the good things about plants.Different types of plants are there.Some of these are</p> 
     <ul><li> <nav>
         <a href="HERBS.html">HERBS</a>
         </nav>
         </li><li>CREEPERS and CLIMBERS</li><li>SHRUBS</li><li>TREES</li></ul>
-        <h3>Did you know some important things about plants?</h3>
+        <h4>Did you know some important things about plants?</h4>
        <form>
         <label>If YES Choose &#10004 or If NO Choose &#10006</label>
             <select>
@@ -79,43 +98,24 @@
             <!--<input type="button" onclick="alert('Hello World!')" value="Click Me!">-->
 
             <a href="Registration Form.html">please fill the Registarion Form</a>
-        </form><br>
-    
-     <table>
-                <tr>
-                    <th>Plants</th>
-                </tr>
-                <tr>
-                    <td>
-                        <li> 
+        </form>
+                    <h3>Plants</h3>
+                        <ol><li> 
                             Each human on earth needs 7 to 8 trees to provide oxygen they need for one year
                         </li>
-                    </td>
-                </tr>
-<tr>
-    <td>
         <li>
             Herbs help reduce blood sugar levels and cholesterol
         </li>
-    </td>
-</tr>
-<tr>
-    <td>
         <li>
             Scientists estimate that there are over 3 trillion trees on earth
         </li>
-    </td>
-</tr>
-<tr>
-    <td>
         <li>
             70000 plant species are utilized for medicine
-        </li>
-    </td>
-</tr>
-     </table>
+        </li></ol>
 <footer>
+    <address aria-busy="true" style="border :2px solid red;margin-right: 1200px;" >My contact no +9609758608</address>
     <p>Thank you visit again</p></footer>
-
-</body>
+    <script src="check.js"></script>
+       <!-- </marquee>-->
+    </body>
 </html>
