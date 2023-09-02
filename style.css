@@ -1,0 +1,34 @@
+body{  background-image: url("/images/flower-drawing-background-1.png") ;
+background-image: repeating-radial-gradient(#8ebf42, #eee 15%, #ccc 30%);}        
+        .display {
+            text-align:center;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-size: xx-large;font-weight: bold;color: blueviolet;
+        }
+            #display {
+                background-color:palevioletred;
+                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+                
+                      
+            }
+                #hd{
+                    background-color:blueviolet;
+                    height: 80px;
+                                }
+                #hd div{display:inline-block;
+                }
+                #hd figcaption{color:yellow;}
+
+                
+                #hd div p{
+                     color: yellow;
+                                        font-weight: bolder;
+                                        font-size: xx-large;
+                                        margin-left: 600px;
+                                    }
+                                  #avii {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}               
